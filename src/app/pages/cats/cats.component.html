@@ -1,0 +1,8 @@
+<h2>Cat Fact</h2>
+<p>{{ catFact$ | async }}</p>
+<h1>Cat Fact</h1>
+@for (breed of catBreeds$ | async; track breed.breed) {
+  <ul>
+    <li>{{ breed.breed }}</li>
+  </ul>
+}
