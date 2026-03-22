@@ -1,5 +1,5 @@
 import { inject, InjectionToken } from '@angular/core';
-import { catchError, map, Observable, of, shareReplay } from 'rxjs';
+import { map, Observable, shareReplay } from 'rxjs';
 import { Breed, BreedResponse } from '../models';
 import { HttpClient } from '@angular/common/http';
 import { CAT_INFO_BASE_URL, CAT_INFO_SLUGS } from '../constans';
